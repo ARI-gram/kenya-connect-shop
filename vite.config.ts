@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/kenya-connect-shop/", // 👈 REQUIRED FOR GITHUB PAGES
+  base: "/", // 👈 Netlify uses root
 
   server: {
     host: "::",
